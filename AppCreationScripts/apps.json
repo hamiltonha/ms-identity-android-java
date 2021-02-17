@@ -27,7 +27,28 @@
             }
           ]
         }
-      ]
+      ],
+      "codeConfigurations": [    
+        { 
+          "SettingFile": "..\\app\src\main\res\raw\auth_config_multiple_account.json", 
+          "clientIdToReplace": "Enter_the_Application_Id_Here", 
+          "RedirectUriToReplace": "Enter_the_Redirect_Uri_Here",
+          "AudienceTypleToReplace": "Enter_the_Audience_Info_Here",
+          "TenantIdToReplace": "Enter_the_Tenant_Info_Here"
+        }, 
+        { 
+          "SettingFile": "..\\app\src\main\res\raw\auth_config_single_account.json", 
+          "clientIdToReplace": "Enter_the_Application_Id_Here", 
+          "RedirectUriToReplace": "Enter_the_Redirect_Uri_Here",
+          "AudienceTypleToReplace": "Enter_the_Audience_Info_Here",
+          "TenantIdToReplace": "Enter_the_Tenant_Info_Here"
+        }, 
+        { 
+          "SettingFile": "..\\app\src\main\AndroidManifest.xml", 
+          "hostToReplace": "Enter_the_Package_Name", 
+          "pathToReplace": "/Enter_the_Signature_Hash"
+        } 
+      ],
     }
   ]
 }
